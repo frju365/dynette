@@ -55,7 +55,7 @@ $ bundle install
 Edit dynette.rb, change PostgreSQL password and domains handled, line 11-12:
 ```
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://dynette:myPassword@localhost/dynette")
-DOMAINS = ["nohost.me", "noho.st"]
+DOMAINS = ["nohost.me", "noho.st", "ynh.fr"]
 ```
 
 Configure and launch thin
